@@ -1,0 +1,45 @@
+/*!
+ * Обновление расширения (Update).
+ *
+ * Расширение "Менеджер расширений модулей".
+ * Модуль "Маркетплейс"
+ *
+ * Copyright 2015 RosGear
+ * Copyright Anton Tivonenko <anton.tivonenko@gmail.com>
+ * https://rosgear.ru/license/
+ */
+
+/* Заливка заднего фона сетки (см. идент. viewManager) */
+.rg-mp-emanager-update .x-panel-body { 
+    background: #f5f5f5; }
+
+
+/**
+ * Шаги обновления расширения.
+ */
+.rg-mp-emanager-update__steps { 
+    padding: 10px 20px 10px 20px; }
+
+.rg-mp-emanager-update__step {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #c7c7c7; }
+
+    .rg-mp-emanager-update__step i {
+        font-size: 20px;
+        color: #c7c7c7;
+        margin-right: 3px; }
+
+.rg-mp-emanager-update__step.active { 
+    color: #333; }
+
+    .rg-mp-emanager-update__step.active i { 
+        color: #217346; }
+
+
+/**
+ * Предупреждение.
+ */
+ .rg-mp-emanager-update__notice { 
+    color: #e78155; 
+    padding: 10px; }
