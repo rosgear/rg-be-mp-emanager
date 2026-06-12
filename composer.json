@@ -1,0 +1,26 @@
+{
+    "name": "rosgear/rg-be-mp-emanager",
+    "description": "Extension (module) \"Module extension manager\" for the GePanel Control Panel",
+    "keywords": ["rosgear", "gepanel", "extension (module)"],
+    "homepage": "https://rosgear.ru/component/rg-be-mp-emanager/",
+    "type": "component",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anton Tivonenko",
+            "email": "anton.tivonenko@gmail.com",
+            "homepage": "https://rosgear.ru/"
+        }
+    ],
+    "require": {
+        "rosgear/ge2-composer-plugin": "*"
+    },
+    "extra": {
+        "ge": {
+            "id": "rg.be.mp.emanager",
+            "vendor": "ge"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
